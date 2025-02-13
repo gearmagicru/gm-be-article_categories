@@ -3,7 +3,7 @@
 Модуль предназначен для создания и редактирования категорий материала сайта.
 
 ## Скриншот
-<img src="https://github.com/gearmagicru/gm-be-article_categories/blob/main/assets/help/desk.png?raw=true">
+<img src="https://github.com/gearmagicru/gm-be-article_categories/blob/master/assets/help/grid.png?raw=true">
 
 ## Установка
 
