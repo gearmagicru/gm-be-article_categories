@@ -20,4 +20,16 @@ use Gm\Site\Data\Model\ArticleCategory;
  */
 class Category extends ArticleCategory
 {
+    /**
+     * Удаляет все записи.
+     * 
+     * @throws \Gm\Db\Adapter\Driver\Exception\CommandException Невозможно выполнить инструкцию SQL.
+     */
+    public function deleteAll()
+    {
+        $this->getDb()
+            ->createCommand()
+                ->truncateTable($this->tableName())
+                ->execute();
+    }
 }
