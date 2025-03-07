@@ -30,27 +30,63 @@ class Import extends \Gm\Import\Import
     {
         return [
             // идентификатор
-            'id' => ['field' => 'id', 'type' => 'int'],
+            'id' => [
+                'field' => 'id', 
+                'type'  => 'int'
+            ],
             // идентификатор языка
-            'language_id' => ['field' => 'language_id', 'type' => 'int'],
+            'language_id' => [
+                'field' => 'language_id', 
+                'type'  => 'int'
+            ],
             // порядковы номер
-            'index' => ['field' => 'index', 'type' => 'int'],
+            'index' => [
+                'field' => 'index', 
+                'type'  => 'int'
+            ],
             // название
-            'name' => 'name',
+            'name' =>  [
+                'field'  => 'name',
+                'length' => 255,
+                'trim'   => true
+            ],
             // опубликовать
-            'publish' => ['field' => 'publish', 'type' => 'int'],
+            'publish' => [
+                'field' => 'publish', 
+                'type'  => 'int'
+            ],
             // слаг
-            'slug' => 'slug', 
+            'slug' => [
+                'field'  => 'slug', 
+                'length' => 255,
+                'trim'   => true
+            ],
             // слаг (полный путь)
-            'slug_path' => 'slug_path',
+            'slug_path' => [
+                'field' => 'slug_path',
+                'trim'  => true
+            ],
             // хэш пути
-            'slug_hash' => 'slug_hash',
+            'slug_hash' => [
+                'field'  => 'slug_hash',
+                'length' => 32,
+                'trim'   => true
+            ],
             // граница дерева слева
-            'ns_left' => ['field' => 'ns_left', 'type' => 'int'],
+            'ns_left' => [
+                'field' => 'ns_left', 
+                'type'  => 'int'
+            ],
             // граница дерева справа
-            'ns_right' => ['field' => 'ns_right', 'type' => 'int'],
+            'ns_right' => [
+                'field' => 'ns_right', 
+                'type'  => 'int'
+            ],
             // идентификатор родительского узла
-            'ns_parent' => ['field' => 'ns_parent', 'type' => 'int']
+            'ns_parent' => [
+                'field' => 'ns_parent', 
+                'type'  => 'int'
+            ]
         ];
     }
 
