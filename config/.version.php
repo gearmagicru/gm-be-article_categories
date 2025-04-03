@@ -12,8 +12,8 @@
 return [
     'name'        => 'Article categories',
     'description' => 'Site article categories',
-    'version'     => '1.0',
-    'versionDate' => '20-12-2017',
+    'version'     => '1.0.1',
+    'versionDate' => '03-04-2025',
     'author'      => 'GearMagic',
     'authorUrl'   => 'https://gearmagic.ru',
     'email'       => 'anton.tivonenko@gmail.com',
